@@ -13,6 +13,7 @@ zshなければインストール
 
 ```
 $ brew install zsh
+# or $ sudo apt install zsh
 $ chsh -s $(which zsh)
 $ echo $SHELL
 ```
