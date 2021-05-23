@@ -2,6 +2,7 @@ alias zshrc='vim ~/.zshrc'
 alias szshrc='source ~/.zshrc'
 alias vimrc='vim ~/.vimrc'
 alias gs='git status'
+alias gsd='git switch -d'
 alias gc='git checkout'
 alias gcp='git cherry-pick'
 alias gb='git branch'
@@ -13,6 +14,8 @@ alias ke='kubectl exec'
 alias kcg='kubectl config get-contexts'
 alias kgp='kubectl get pods'
 alias cppwd='pwd | tr -d "\n" | pbcopy'
+alias de='docker exec'
+alias dpf='docker ps --format "table {{.ID}} {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}"'
 
 # プロンプトの表示
 fpath=(~/.zsh $fpath)
