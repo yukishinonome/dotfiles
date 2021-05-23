@@ -21,7 +21,10 @@ $ echo $SHELL
 ## セットアップ方法
 
 ```
-$ get clone git@github.com:yukishinonome/dotfiles.git ~/.dotfiles
+$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+$ git clone git@github.com:yukishinonome/dotfiles.git ~/.dotfiles
+$ cd ~/.dotfiles
+$ chmod u+x bin/install.sh
 $ bin/install.sh
 ```
 
